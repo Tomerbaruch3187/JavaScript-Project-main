@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F7F9;
+    margin: 0 auto;
+}
+
+
+/* -----title----- */
+.width-bgc {
+    background: linear-gradient(180deg, rgba(126, 72, 252, 0.61) 45%, rgba(112, 31, 243, 0) 100%);
+}
+
+h1 {
+    /* font-size: 2em; */
+    font-family: 'Bungee', cursive;
+}
+
+.title-div {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.project-name {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.project-name p {
+    padding-top: 28px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 844px;
+    font-family: 'Belanosima', sans-serif;
+}
+
+/* -----button----- */
+.button {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    width: 153px;
+    height: 30px;
+    border: none;
+    margin: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #8122da50;
+}
+
+button:hover {
+    box-shadow: 0px 5px 10px rgba(73, 23, 252, 0.178);
+    background-color: rgba(131, 56, 216, 0.527);
+    transition: 0.1s linear;
+}
+
+/* -----project pic----- */
+.project-pic {
+    width: 40vw;
+    height: 35vh;
+    box-shadow: 0px 0px 40px #00000066;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 4%;
+    display: block;
+}
+
+.project-used-with {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.the-image {
+    margin-top: 50px;
+}
+
+.project3Image {
+    width: 165px;
+    height: 320px;
+    border-radius: 25px;
+}
+
+
+/* image-size */
+.image-size {
+    width: 70px;
+    height: 70px;
+    margin-top: 8px;
+}
+
+.image-size-js {
+    width: 60px;
+    height: 33px;
+    margin-top: 26px;
+}
+
+project3Image {}
+
+@media (max-width: 768px) {
+
+    /* Mobile Styles */
+    .title-div {
+        height: auto;
+        padding: 10px;
+    }
+
+    .project-name {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .project-name p {
+        font-size: 16px;
+        padding-top: 10px;
+        margin: 20px;
+    }
+
+    .button {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-pic {
+        width: 80vw;
+        height: auto;
+        margin-top: 8%;
+    }
+
+    button {
+        margin: 5px;
+    }
+
+    .project3Image {
+        width: 130px;
+        border-radius: 20px;
+        margin-bottom: 60px;
+    }
+}

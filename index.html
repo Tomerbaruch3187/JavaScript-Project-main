@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Tomer Baruch - JavsScript Project</title>
+  <meta name="title" content="Tomer - Developer.">
+  <meta name="description" content="Tomer's personal portfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/justMe.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logoHeader.png" width="64" height="24" alt="Tomer baruch">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <!-- <a href="#" class="logo">
+            <img class="openNavImg" src="./assets/images/logoHeader.png" width="64" height="24" alt="Tomer home">
+          </a> -->
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#contact" class="navbar-link">צור קשר</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">עבודות</a>
+          </li>
+
+          <li>
+            <a href="#about-me" class="navbar-link">קצת עלי</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:tomerbaruch4444@gmail.com" class="contact-link">tomerbaruch4444@gmail.com</a>
+        </div>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/tomer.baruch.56/" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tomer_baruch8/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" target="_blank" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/justMe.jpg" width="560" height="540" alt="Tomer" class="w-100" data-reveal="top">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 id="hero-content" class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              בניית אתרי פורטפוליו ואתרי תדמית לעסקים
+            </h1>
+
+            <p id="hero-content" class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              הגעת למקום שיעזור לך ליצור איתנו ביחד ממשק דיגיטלי מושך ומותאם
+              אישית
+              לעסק שלך
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#projects" class="btn btn-primary">העבודות שלי</a>
+
+              <a href="#contact" class="btn btn-secondary">צור קשר</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about-me" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <span class="span">85 %</span>
+                  <p>עיצוב אתרים</p>
+
+
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <span class="span">100 %</span>
+                  <p>אתר רספונסיבי</p>
+
+
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <span class="span">95 %</span>
+                  <p>תכנות אתרים</p>
+
+
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 95%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">קצת עלי</h2>
+
+              <p class="section-text">
+                שמי תומר ברוך, ספורטתרפיסט וסטודנט לבניית אתרים במכללת "אקר-יו", לקראת סיום הלימודים ואחרי שעות על גבי
+                שעות
+                של לימודים החלטתי להנגיש את שירות בניית האתרים לקהל הרחב (במחירים נוחים במיוחד), במידה ואת/ה מעוניינים
+                בדף פרוטפוליו אישי או בדף לעסק שלכם - הגעתם למקום הנכון
+              </p>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">עיצוב אתרים</h3>
+
+                <p class="card-text">
+                  עיצוב אתרים הוא אמנות שמשלבת אסתטיקה, יצירתיות ויכולת תכנון מתוך הבנת המשתמש. באמצעות פתרונות גרפיים
+                  מודרניים, קריאות ותכנון יעיל, אנחנו יוצרים ממשקים שמשפרים את חוויית המשתמש, מעלים את היכולת להתנהל
+                  באתר ומחזקים את המסר החזק של העסק או המותג. העיצוב המקצועי והחדשני שלנו מבטיח שהאתר שלך יתפאר במראה
+                  מרהיב, תהיה בו שליטה נוחה, יעילה וישפר את השימושיות וההתמצאות של המשתמשים
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">רספונסיביות</h3>
+
+                <p class="card-text">
+                  אתר רספונסיבי הוא אתר שנוצר בצורה שמתאימה את התצוגה והפונקציות שלו באופן אוטומטי למסכים שונים
+                  ולמכשירים שונים, כמו מחשבים, טאבלטים וסמארטפונים. בעזרת טכנולוגיות פיתוח מתקדמות, עיצוב מתאים ועריכה
+                  מדויקת של פרמטרים גרפיים ותצוגה, אתר רספונסיבי מתאים את האתר כך שיהיה נוח לשימוש וקריא בכל גודל מסך
+                  ובכל תנאי גלישה. זה מבטיח שהמשתמשים יוכלו לגלוש באתר, לקרוא תוכן ולבצע פעולות בצורה נוחה ויעילה, בלתי
+                  תלוי במכשיר שהם משתמשים בו. עיצוב רספונסיבי חיוני לשפר את חוויית המשתמש ולהבטיח שהאתר שלך ייראה מקצועי
+                  וימשיך לתפקד בצורה איכותית בכל מכשיר ומסך
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">תכנות האתר</h3>
+
+                <p class="card-text">
+                  תהליך תכנות אתר מתחיל בתכנון האתר, הכולל את התכנים, המבנה והתצורה הכללית של האתר. לאחר מכן, מתבצעת
+                  תהליך הפיתוח הפיזי של האתר באמצעות שפות תכנות כמו HTML, CSS ו-JavaScript. התהליך כולל בניית הפריסה של
+                  הדפים, העיצוב, האנימציות והתכנים הדינמיים של האתר. לאחר מכן, יתבצעו בדיקות ותיקונים כדי לוודא שהאתר
+                  עובד בצורה תקינה וחלקה. בשלב הסיום, האתר יועלה לשרת ויוכן בצורה פעילה וזמינה למשתמשים. תהליך תכנות
+                  האתר משלב יכולת יצירתית, מומחיות טכנית ושימוש בכלים מתקדמים כדי ליצור את הממשק המקוון והפונקציות
+                  הדינמיות הנדרשות לאתר מוצלח
+                </p>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #d1131311">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #4dca4d">Snake - סנייק</p>
+
+                  <h3 class="h3 card-title">משחק סנייק</h3>
+
+                  <p class="card-text">
+                    משחק סנייק הוא משחק מחשב קלאסי בו השחקן שולט בנחש וצריך לאכול אוכל כדי לגדול ולהתרחב בשטח המשחק.
+                    האתגר במשחק הוא להימנע מהתנגשויות עם קירות המסך או עם הזנב של הנחש. ככל שהנחש מתרחב, המשחק מתקבל קשה
+                    יותר ויש צורך ברפלקסים מהירים כדי לנהל את הנחש לתוך מקומות צפויים על המסך. המשחק נחשב לאחד המשחקים
+                    הקלאסיים והמוכרים ביותר בהיסטוריה של משחקי המחשב
+                  </p>
+
+                  <a href="./productsSnake/index.html" target="_blank" class="btn-text" style="color: #4dca4d">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img id="project1" src="./assets/images/project1.png" width="" height="" loading="lazy"
+                    alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #ac55f311">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #e67a48">Memory Cards - משחק זיכרון</p>
+
+                  <h3 class="h3 card-title">משחק זיכרון</h3>
+
+                  <p class="card-text">
+                    משחק הזיכרון נחשב לפעילות משפחתית וחינוכית פופולרית, ונמצא בשימוש ברחבי העולם עבור ילדים ומבוגרים
+                    כאחד. המשחק נמצא במגוון גרסאות, כולל גרסאות עם תמונות, מילים, מספרים וצורות, וניתן לשחקו כפעילות
+                    חברתית או כפעילות פרטית.
+                  </p>
+
+                  <a href="./memoryCards/index.html" target="_blank" class="btn-text" style="color: #e67a48">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-3" style="background-color: #1d5fec1c">
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #8760e4">weather app - מזג אוויר</p>
+
+                  <h3 class="h3 card-title">מזג אוויר</h3>
+
+                  <p class="card-text">
+                    אפליקציית מזג האוויר היא כלי מועיל ושימושי שמספק מידע מדויק ועדכני על מצב האוויר במקומות שונים
+                    בעולם. באמצעות האפליקציה, תוכל לקבל מידע חיוני על מזג האוויר הנוכחי, תחזיות עבור ימים עתידיים, ומידע
+                    נוסף הקשור לתנאי מזג האוויר
+                  </p>
+
+                  <a href="./weatherApp/index.html" target="_blank" class="btn-text" style="color: #8760e4">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner display-project3" data-reveal="right">
+                  <img id="project3" src="./assets/images/project3.png" width="600" height="367" loading="lazy"
+                    alt="Web Design" class="w-100">
+                  <img id="project-3" src="./assets/images/project-3.png" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #b4b3b32f">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #B2A4FF">To Do list - רשימת קניות </p>
+
+                  <h3 class="h3 card-title">רשימת קניות</h3>
+
+                  <p class="card-text">
+
+                    דף משימות הוא כלי נפוץ שמשמש לניהול משימות ולתכנון יומי, שבועי או חודשי. זהו דף עם רשימת משימות שיש
+                    לבצע, שמתוארגן לפי עדיפות, מועד סיום או נושא. דפי המשימות נמצאים בשימוש בעיקר על ידי אנשים שמחפשים
+                    דרך ממוקדת לנהל את זמנם ולהיות מאורגנים יותר
+                  </p>
+
+                  <a href="./toDoList/index.html" target="_blank" class="btn-text" style="color: #B2A4FF">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner display-project3" data-reveal="right">
+                  <img id="project3" src="./assets/images/project-4.png" width="620" height="370" loading="lazy"
+                    alt="Mobile Design" class="w-100">
+                  <img id="project3" src="./assets/images/project4.png" width="620" height="370" loading="lazy"
+                    alt="Mobile Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-5" style="background-color: #8a1ef015">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #8b1cf3">Gallery - גלריית תמונות</p>
+
+                  <h3 class="h3 card-title">גלריית תמונות</h3>
+
+                  <p class="card-text">
+                    גלריית תמונות היא מרכז או מרחב דיגיטלי שמאגד ומציג תמונות בצורה מסודרת ונוחה לצפייה. הגלריה יכולה
+                    להיות מותאמת אישית ופרטית לכל אדם, וניתן לשתף אותה עם אחרים או להקים אותה בצורה ציבורית לצפייה
+                    נוספת. בגלריית התמונות ניתן לסדר ולקבץ את התמונות לפי סוגים, תגיות, תאריכים או כל מדד אחר שנבחר, וכן
+                    להוסיף תיאורים או הערות לכל תמונה.
+                  </p>
+
+                  <a href="./gallery/index.html" target="_blank" class="btn-text" style="color: #7f48e6">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/galleryDesktop.png" width="600" height="3-" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-6" style="background-color: #bd59ff10">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #9FBAFF">Note App - דף משימות</p>
+
+                  <h3 class="h3 card-title">דף משימות</h3>
+
+                  <p class="card-text">
+                    דף משימות הוא כלי ניהול זמן ומשאבים המשמש לעיצוב ועקיפת משימות בצורה מסודרת וממודרגת. הוא
+                    מאפשר לך לרשום, לסדר ולעקוב אחרי משימות שונות שצריך להשלים במהלך היום, השבוע, החודש או בכל
+                    תקופת זמן אחרת
+                  </p>
+
+                  <a href="./noteApp/index.html" target="_blank" class="btn-text" style="color: #9fb5ff">
+                    <span class="span">לחץ לעמוד הפרויקט</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project6.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contact" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+
+            <div></div>
+            <div id="contact-box" class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img id="mail-box" src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy"
+                  alt="envelop icon">
+              </div>
+
+              <h2 id="title-box" class="h2 section-title">אם אהבת את מה שראית באתר, בוא/י נעבוד יחד</h2>
+
+
+
+              <p id="section-text" class="section-text">
+                הביאו את רעיונותיכם ויחד נבנה את האתר
+                שיעניק חוויה ייחודית ומרהיבה למשתמשים
+              </p>
+              <div>052-4441966</div>
+              <div>tomerbaruch4444@gmail.com</div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2023 Tomer Baruch. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://www.facebook.com/tomer.baruch.56/" target="_blank" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tomer_baruch8/" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
